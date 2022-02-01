@@ -67,7 +67,7 @@ class AccountsController < ApplicationController
       return render json: { errors: {account_number: ["Please enter a valid account number"]}}, status: :unprocessable_entity 
   end
 
-  def delete
+  def destroy
     if account.destroy
       return render json: { message: "Account deleted successfully"}, status: :ok
     end
