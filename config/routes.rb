@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :accounts
+  patch 'accounts/:id/withdraw', to: 'accounts#withdraw'
+  patch 'accounts/:id/deposit', to: 'accounts#deposit'
+  patch 'accounts/:id/transfer', to: 'accounts#transfer'
   devise_for :users,
   path: '',
   path_names: {

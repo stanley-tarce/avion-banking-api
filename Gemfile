@@ -50,5 +50,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise-jwt'
 gem 'devise'
 gem 'dotenv-rails'
+gem 'securerandom'
+gem 'active_model_serializers', '~> 0.10.0'
+
 
 

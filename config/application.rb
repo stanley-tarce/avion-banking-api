@@ -18,6 +18,7 @@ require "action_cable/engine"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+Dir["/path/to/directory/*.rb"].each {|file| require file } # Require every helpers automatically
 
 module BankingApi
   class Application < Rails::Application
