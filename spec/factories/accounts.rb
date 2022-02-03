@@ -14,6 +14,6 @@ FactoryBot.define do
     account_number { accountnum }
     account_type { accounttype }
     email { Faker::Internet.email }
-    balance { createbalance }
+    balance { create_balance }
   end
 end
