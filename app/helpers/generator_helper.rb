@@ -9,7 +9,7 @@ module GeneratorHelper
         return accountnum if randno.length < 6
         "#{year}#{month}#{day}#{randno}"
     end
-    def createbalance
+    def create_balance
         (rand()*10000).to_i > 0 ? (rand()*10000).to_i :  balance
     end
     def transactionid
