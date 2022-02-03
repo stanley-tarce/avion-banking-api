@@ -1,17 +1,19 @@
+include GeneratorHelper
+
 FactoryBot.define do
   factory :account do
-    first_name { "MyString" }
-    middle_name { "MyString" }
-    last_name { "MyString" }
-    gender { "MyString" }
-    contact_number { "MyString" }
-    birth_date { "MyString" }
-    home_address { "MyString" }
-    city { "MyString" }
-    zip_code { "MyString" }
-    account_number { "MyString" }
-    account_type { "MyString" }
-    email { "MyString" }
-    balance { 1 }
+    first_name { Faker::Name.first_name }
+    middle_name { Faker::Name.middle_name }
+    last_name { Faker::Name.last_name }
+    gender { Faker::Gender.binary_type }
+    contact_number { contactnumber }
+    birth_date { Faker::Date.birth }
+    home_address { Faker::Address.secondary_address }
+    city { Faker::Address.city }
+    zip_code { zipcode }
+    account_number { accountnum }
+    account_type { accounttype }
+    email { Faker::Internet.email }
+    balance { createbalance }
   end
 end
