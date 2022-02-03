@@ -7,5 +7,4 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
             render json: { error: "Error" }, status: :unprocessable_entity
         end
     end
-
 end
