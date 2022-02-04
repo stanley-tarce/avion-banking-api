@@ -98,7 +98,7 @@ I only checked the validity and the request endpoints for the tests since it's a
     
     end
     
-###Deployment
+### Deployment
 To deploy to production, simply create an heroku account and run this on the terminal 
 
     heroku create
