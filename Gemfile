@@ -37,6 +37,8 @@ end
 
 group :test do
  gem 'database_cleaner-active_record'
+gem 'shoulda-matchers', '~> 5.0'
+
 end
 group :development do
   gem 'listen', '~> 3.3'
@@ -56,6 +58,8 @@ gem 'active_model_serializers', '~> 0.10.0'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'rubocop-rspec', require: false
+
 
 
 

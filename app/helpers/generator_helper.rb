@@ -20,6 +20,12 @@ module GeneratorHelper
         ind = rand(0..1)
         account_type[ind]
     end
+
+    def transactiontype 
+        transaction_type = ["Deposit", "Withdrawal", "Transfer"]
+        ind = rand(0..2)
+        transaction_type[ind]
+    end
     def contactnumber
         output = "09#{rand(0..99).to_i.to_s.length < 2 ? "0#{rand(0..99).to_i}" : rand(0..99).to_i}#{rand(101..999)}#{rand(1001..9999)}"
         return contactnumber unless output.length == 11 

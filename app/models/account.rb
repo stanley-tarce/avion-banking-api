@@ -4,7 +4,7 @@ class Account < ApplicationRecord
     validates :middle_name, presence: true
     validates :email, presence: true, uniqueness: true, format: { with: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i, message: "must be in email format" }
     validates :gender, presence: true
-    validates :contact_number, length: {minimum: 11, maximum:13}, format: {with: /(\d{4})(\d{3})(\d{4})/, message: 'must be a number'}
+    validates :contact_number, presence: true, length: {minimum: 11, maximum:13}, format: {with: /(\d{4})(\d{3})(\d{4})/, message: 'must be a number'}
     validates :birth_date, presence: true
     validates :home_address, presence: true
     validates :city, presence: true
