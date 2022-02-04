@@ -5,7 +5,7 @@
 
 # Avion Banking Rails API
 
-Avion Banking API is a Rails API only Application for the [Avion Banking App website](https://avion-banking-app.vercel.app)
+Avion Banking API is a Rails API only Application for the [Avion Banking App website](https://github.com/stanley-tarce/avion-banking-app)
 ### Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -106,3 +106,18 @@ To deploy to production, simply create an heroku account and run this on the ter
     git add -A 
     git commit -m <MESSAGE>
     git push heroku 
+
+### Gems
+For authentication, api serialization, and handling of environment variables, I used the following gems 
+|gem|purpose |
+|--|--|
+| dotenv-rails |  environment var|
+| devise |  authentication|
+| devise-jwt| jwt-authentication|
+| shoulda-matchers |  rspec testing|
+| rspec-rails |  testing|
+| active-model-serializers |  api serialization|
+| factory-bot-rails | rspec testing |
+| database-cleaner-active-record | rspec testing |
+| securerandom | uuid creation |
+| pg | postgresql database |
