@@ -5,7 +5,7 @@
 
 # Avion Banking Rails API
 
-Avion Banking API is a Rails API only Application for the [Avion Banking App website](https://github.com/stanley-tarce/avion-banking-app)
+Avion Banking API is a Rails API only Application for the [Avion Banking App React Repository](https://github.com/stanley-tarce/avion-banking-app)
 ### Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
