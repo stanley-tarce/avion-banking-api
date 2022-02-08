@@ -97,6 +97,9 @@ I only checked the validity and the request endpoints for the tests since it's a
     expect(response).to  have_http_status(:success)
     
     end
+   **RSpec Test Result**
+   Finished in 54.9 seconds (files took 2.01 seconds to load)
+73 examples, 0 failures
     
 ### Deployment
 To deploy to production, simply create an heroku account and run this on the terminal 
