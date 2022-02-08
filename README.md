@@ -6,6 +6,13 @@
 # Avion Banking Rails API
 
 Avion Banking API is a Rails API only Application for the [Avion Banking App React Repository](https://github.com/stanley-tarce/avion-banking-app)
+
+### Frontend Repository
+To access the frontend repository click this [link](https://github.com/stanley-tarce/avion-banking-api) 
+
+### Live/Demo
+Please use this [link](https://avion-banking-app.vercel.app) to access the app
+
 ### Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
